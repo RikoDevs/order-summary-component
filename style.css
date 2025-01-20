@@ -1,0 +1,133 @@
+body {
+  font-family: Red Hat Display;
+  background: url(pattern-background-desktop.svg);
+  font-size: 14px;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 320px;
+  height: 500px;
+  margin: auto;
+  margin-top: 75px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 1px 0.5px 0.5px 0.5px;
+  margin-bottom: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.bodycontainer {
+  padding-top: 30px;
+  width: 300px;
+  height: 250px;
+  margin: auto;
+}
+
+.bodycontainer h1 {
+  margin-bottom: 20px;
+}
+
+.desc {
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.hero img {
+  width: 320px;
+}
+
+.container h1 {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.container2 {
+  background-color: hsl(225, 100%, 98%);
+  width: 250px;
+  height: 70px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.container2 img {
+  float: left;
+  margin-left: 20px;
+  width: 35px;
+  margin-top: 9px;
+}
+
+.container2 div {
+  position: absolute;
+  margin-left: 65px;
+  top: 37px;
+}
+
+.container .annual {
+  margin-top: -18px;
+  font-weight: 900;
+}
+
+.container2 .price {
+  color: hsl(224, 23%, 55%);
+}
+
+.container2 a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.button {
+  width: 250px;
+  height: 40px;
+  background-color: hsl(245, 75%, 52%);
+  margin: auto;
+  line-height: 40px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+.cancel a {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+}
+
+.container2 a {
+  margin-right: 15px;
+  margin-top: 18px;
+}
+
+.container2 a {
+  float: right;
+}
+
+.container .clear {
+  clear: left;
+}
+
+.button:hover {
+  background-color: darkblue;
+}
